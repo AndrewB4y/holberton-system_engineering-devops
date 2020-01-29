@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "$(ls -la)\n$(ls -lad ../*/)\n$(ls -lsd /boo*)"

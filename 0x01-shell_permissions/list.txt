@@ -1,0 +1,30 @@
+.:
+total 100
+drwxrwxr-x 2 vagrant vagrant 4096 Feb  2 00:23 .
+drwxrwxr-x 6 vagrant vagrant 4096 Feb  2 00:21 ..
+-rwxrw-r-- 1 vagrant vagrant   21 Jan 30 19:12 0-iam_betty
+-rwxrw-r-- 1 vagrant vagrant   42 Jan 30 20:09 100-Star_Wars
+-rwxrw-r-- 1 vagrant vagrant  608 Jan 31 04:16 101-man_holberton
+-rw-rw-r-- 1 vagrant vagrant  603 Jan 31 04:10 101-man_holberton~
+-rwxrw-r-- 1 vagrant vagrant   42 Jan 30 19:18 10-mirror_permissions
+-rwxrw-r-- 1 vagrant vagrant   27 Jan 30 16:13 11-directories_permissions
+-rwxrw-r-- 1 vagrant vagrant   39 Jan 30 16:19 12-directory_permissions
+-rwxrw-r-- 1 vagrant vagrant   34 Jan 30 16:21 13-change_group
+-rwxrw-r-- 1 vagrant vagrant   38 Jan 30 19:30 14-change_owner_and_group
+-rwxrw-r-- 1 vagrant vagrant   44 Jan 30 19:38 15-symbolic_link_permissions
+-rwxrw-r-- 1 vagrant vagrant   47 Jan 30 19:57 16-if_only
+-rwxrw-r-- 1 vagrant vagrant   19 Jan 30 14:53 1-who_am_i
+-rwxrw-r-- 1 vagrant vagrant   19 Jan 30 16:25 2-groups
+-rwxrw-r-- 1 vagrant vagrant   19 Jan 30 14:54 2-groups~
+-rwxrw-r-- 1 vagrant vagrant   30 Jan 30 14:57 3-new_owner
+-rwxrw-r-- 1 vagrant vagrant   24 Jan 30 15:41 4-empty
+-rwxrw-r-- 1 vagrant vagrant   28 Jan 30 15:42 5-execute
+-rwxrw-r-- 1 vagrant vagrant   33 Jan 30 15:42 6-multiple_permissions
+-rwxrw-r-- 1 vagrant vagrant   30 Jan 30 15:43 7-everybody
+-rwxrw-r-- 1 vagrant vagrant   28 Jan 30 15:44 8-James_Bond
+-rwxrw-r-- 1 vagrant vagrant   28 Jan 30 15:46 9-John_Doe
+-rw-rw-r-- 1 vagrant vagrant    2 Jan 30 14:14 .gitignore
+-rw-rw-r-- 1 vagrant vagrant    0 Jan 30 15:50 hello
+-rw-rw-r-- 1 vagrant vagrant    0 Feb  2 00:23 list.txt
+-rw-rw-r-- 1 vagrant vagrant    0 Jan 30 15:50 olleh
+-rw-rw-r-- 1 vagrant vagrant  245 Jan 30 14:26 README.md

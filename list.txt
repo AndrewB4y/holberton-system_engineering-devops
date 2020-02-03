@@ -1,0 +1,1187 @@
+.:
+total 28
+drwxrwxr-x 6 vagrant vagrant 4096 Feb  2 00:21 .
+drwxr-xr-x 8 vagrant vagrant 4096 Feb  1 20:01 ..
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 30 14:12 0x00-shell_basics
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 31 04:16 0x01-shell_permissions
+drwxrwxr-x 2 vagrant vagrant 4096 Feb  2 00:17 0x02-shell_redirections
+drwxrwxr-x 8 vagrant vagrant 4096 Feb  1 19:29 .git
+-rw-rw-r-- 1 vagrant vagrant    0 Feb  2 00:22 list.txt
+-rw-rw-r-- 1 vagrant vagrant   50 Jan 29 13:27 README.md
+
+./0x00-shell_basics:
+total 112
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 30 14:12 .
+drwxrwxr-x 6 vagrant vagrant 4096 Feb  2 00:21 ..
+-rwxrw-r-- 1 vagrant vagrant   16 Jan 29 16:25 0-current_working_directory
+-rwxrw-r-- 1 vagrant vagrant   17 Jan 29 18:42 10-back
+-rwxrw-r-- 1 vagrant vagrant   30 Jan 29 19:25 11-lists
+-rwxrw-r-- 1 vagrant vagrant   31 Jan 29 19:30 12-file_type
+-rwxrw-r-- 1 vagrant vagrant   33 Jan 29 19:53 13-symbolic_link
+-rwxrw-r-- 1 vagrant vagrant   29 Jan 29 20:15 14-copy_html
+-rwxrw-r-- 1 vagrant vagrant   35 Jan 29 20:36 15-lets_move
+-rwxrw-r-- 1 vagrant vagrant   18 Jan 29 20:39 16-clean_emacs
+-rwxrw-r-- 1 vagrant vagrant   42 Jan 29 20:44 17-tree
+-rwxrw-r-- 1 vagrant vagrant   58 Jan 29 20:41 17-tree~
+-rwxrw-r-- 1 vagrant vagrant   20 Jan 29 21:03 18-commas
+-rwxrw-r-- 1 vagrant vagrant   15 Jan 29 18:37 1-listit
+-rwxrw-r-- 1 vagrant vagrant   15 Jan 29 18:39 2-bring_me_home
+-rwxrw-r-- 1 vagrant vagrant   18 Jan 29 18:41 3-listfiles
+-rwxrw-r-- 1 vagrant vagrant   19 Jan 29 18:41 4-listmorefiles
+-rwxrw-r-- 1 vagrant vagrant   20 Jan 29 13:52 5-listfilesdigitonly
+-rwxrw-r-- 1 vagrant vagrant   33 Jan 29 18:42 6-firstdirectory
+-rwxrw-r-- 1 vagrant vagrant   47 Jan 29 18:42 7-movethatfile
+-rwxrw-r-- 1 vagrant vagrant   36 Jan 29 18:42 8-firstdelete
+-rwxrw-r-- 1 vagrant vagrant   33 Jan 29 18:42 9-firstdirdeletion
+-rw-rw-r-- 1 vagrant vagrant    2 Jan 30 14:12 .gitignore
+-rw-rw-r-- 1 vagrant vagrant   50 Jan 30 00:40 holberton.mgc
+lrwxrwxrwx 1 vagrant vagrant    7 Jan 29 19:51 __ls__ -> /bin/ls
+-rw-rw-r-- 1 vagrant vagrant   99 Jan 29 18:34 README.md
+-rw-rw-r-- 1 vagrant vagrant    9 Jan 30 00:38 thisisaholbertonfile
+-rw-rw-r-- 1 vagrant vagrant    9 Jan 30 00:37 thisisaholbertonfile~
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 20:44 welcome
+
+./0x00-shell_basics/welcome:
+total 12
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 20:44 .
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 30 14:12 ..
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 20:44 to
+
+./0x00-shell_basics/welcome/to:
+total 12
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 20:44 .
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 20:44 ..
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 20:44 holberton
+
+./0x00-shell_basics/welcome/to/holberton:
+total 8
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 20:44 .
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 20:44 ..
+
+./0x01-shell_permissions:
+total 100
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 31 04:16 .
+drwxrwxr-x 6 vagrant vagrant 4096 Feb  2 00:21 ..
+-rwxrw-r-- 1 vagrant vagrant   21 Jan 30 19:12 0-iam_betty
+-rwxrw-r-- 1 vagrant vagrant   42 Jan 30 20:09 100-Star_Wars
+-rwxrw-r-- 1 vagrant vagrant  608 Jan 31 04:16 101-man_holberton
+-rw-rw-r-- 1 vagrant vagrant  603 Jan 31 04:10 101-man_holberton~
+-rwxrw-r-- 1 vagrant vagrant   42 Jan 30 19:18 10-mirror_permissions
+-rwxrw-r-- 1 vagrant vagrant   27 Jan 30 16:13 11-directories_permissions
+-rwxrw-r-- 1 vagrant vagrant   39 Jan 30 16:19 12-directory_permissions
+-rwxrw-r-- 1 vagrant vagrant   34 Jan 30 16:21 13-change_group
+-rwxrw-r-- 1 vagrant vagrant   38 Jan 30 19:30 14-change_owner_and_group
+-rwxrw-r-- 1 vagrant vagrant   44 Jan 30 19:38 15-symbolic_link_permissions
+-rwxrw-r-- 1 vagrant vagrant   47 Jan 30 19:57 16-if_only
+-rwxrw-r-- 1 vagrant vagrant   19 Jan 30 14:53 1-who_am_i
+-rwxrw-r-- 1 vagrant vagrant   19 Jan 30 16:25 2-groups
+-rwxrw-r-- 1 vagrant vagrant   19 Jan 30 14:54 2-groups~
+-rwxrw-r-- 1 vagrant vagrant   30 Jan 30 14:57 3-new_owner
+-rwxrw-r-- 1 vagrant vagrant   24 Jan 30 15:41 4-empty
+-rwxrw-r-- 1 vagrant vagrant   28 Jan 30 15:42 5-execute
+-rwxrw-r-- 1 vagrant vagrant   33 Jan 30 15:42 6-multiple_permissions
+-rwxrw-r-- 1 vagrant vagrant   30 Jan 30 15:43 7-everybody
+-rwxrw-r-- 1 vagrant vagrant   28 Jan 30 15:44 8-James_Bond
+-rwxrw-r-- 1 vagrant vagrant   28 Jan 30 15:46 9-John_Doe
+-rw-rw-r-- 1 vagrant vagrant    2 Jan 30 14:14 .gitignore
+-rw-rw-r-- 1 vagrant vagrant    0 Jan 30 15:50 hello
+-rw-rw-r-- 1 vagrant vagrant    0 Jan 30 15:50 olleh
+-rw-rw-r-- 1 vagrant vagrant  245 Jan 30 14:26 README.md
+
+./0x02-shell_redirections:
+total 68
+drwxrwxr-x 2 vagrant vagrant 4096 Feb  2 00:17 .
+drwxrwxr-x 6 vagrant vagrant 4096 Feb  2 00:21 ..
+-rwxrw-r-- 1 vagrant vagrant   32 Feb  1 21:24 0-hello_world
+-rw-rw-r-- 1 vagrant vagrant   48 Feb  2 00:17 10-no_more_js
+-rwxrw-r-- 1 vagrant vagrant   28 Feb  1 19:40 1-confused_smiley
+-rwxrw-r-- 1 vagrant vagrant   28 Feb  1 21:23 2-hellofile
+-rwxrw-r-- 1 vagrant vagrant   39 Feb  1 21:29 3-twofiles
+-rwxrw-r-- 1 vagrant vagrant   29 Feb  1 21:34 4-lastlines
+-rwxrw-r-- 1 vagrant vagrant   28 Feb  1 21:36 5-firstlines
+-rwxrw-r-- 1 vagrant vagrant   44 Feb  1 21:58 6-third_line
+-rwxrw-r-- 1 vagrant vagrant   99 Feb  1 23:15 7-file
+-rwxrw-r-- 1 vagrant vagrant   90 Feb  1 23:39 7-file_Option
+-rwxrw-r-- 1 vagrant vagrant   37 Feb  1 23:28 8-cwd_state
+-rwxrw-r-- 1 vagrant vagrant   35 Feb  1 23:47 9-duplicate_last_line
+-rw-rw-r-- 1 vagrant vagrant  856 Feb  1 23:51 iacta
+-rw-rw-r-- 1 vagrant vagrant  854 Feb  1 23:48 iacta~
+-rw-rw-r-- 1 vagrant vagrant  170 Feb  1 19:16 README.md
+
+./.git:
+total 60
+drwxrwxr-x   8 vagrant vagrant 4096 Feb  1 19:29 .
+drwxrwxr-x   6 vagrant vagrant 4096 Feb  2 00:21 ..
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:31 branches
+-rw-rw-r--   1 vagrant vagrant   45 Feb  1 19:29 COMMIT_EDITMSG
+-rw-rw-r--   1 vagrant vagrant  293 Jan 31 04:15 config
+-rw-rw-r--   1 vagrant vagrant   73 Jan 29 18:31 description
+-rw-rw-r--   1 vagrant vagrant   23 Jan 29 18:31 HEAD
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:31 hooks
+-rw-rw-r--   1 vagrant vagrant 4989 Feb  1 19:29 index
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:31 info
+drwxrwxr-x   3 vagrant vagrant 4096 Jan 29 18:32 logs
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 objects
+-rw-rw-r--   1 vagrant vagrant   41 Jan 30 19:56 ORIG_HEAD
+drwxrwxr-x   5 vagrant vagrant 4096 Jan 29 18:33 refs
+
+./.git/branches:
+total 8
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:31 .
+drwxrwxr-x 8 vagrant vagrant 4096 Feb  1 19:29 ..
+
+./.git/hooks:
+total 48
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:31 .
+drwxrwxr-x 8 vagrant vagrant 4096 Feb  1 19:29 ..
+-rwxrwxr-x 1 vagrant vagrant  452 Jan 29 18:31 applypatch-msg.sample
+-rwxrwxr-x 1 vagrant vagrant  896 Jan 29 18:31 commit-msg.sample
+-rwxrwxr-x 1 vagrant vagrant  189 Jan 29 18:31 post-update.sample
+-rwxrwxr-x 1 vagrant vagrant  398 Jan 29 18:31 pre-applypatch.sample
+-rwxrwxr-x 1 vagrant vagrant 1642 Jan 29 18:31 pre-commit.sample
+-rwxrwxr-x 1 vagrant vagrant 1239 Jan 29 18:31 prepare-commit-msg.sample
+-rwxrwxr-x 1 vagrant vagrant 1352 Jan 29 18:31 pre-push.sample
+-rwxrwxr-x 1 vagrant vagrant 4898 Jan 29 18:31 pre-rebase.sample
+-rwxrwxr-x 1 vagrant vagrant 3611 Jan 29 18:31 update.sample
+
+./.git/info:
+total 12
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:31 .
+drwxrwxr-x 8 vagrant vagrant 4096 Feb  1 19:29 ..
+-rw-rw-r-- 1 vagrant vagrant  240 Jan 29 18:31 exclude
+
+./.git/logs:
+total 20
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 8 vagrant vagrant 4096 Feb  1 19:29 ..
+-rw-rw-r-- 1 vagrant vagrant 6843 Feb  1 19:29 HEAD
+drwxrwxr-x 4 vagrant vagrant 4096 Jan 29 18:33 refs
+
+./.git/logs/refs:
+total 16
+drwxrwxr-x 4 vagrant vagrant 4096 Jan 29 18:33 .
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:32 ..
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:32 heads
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:33 remotes
+
+./.git/logs/refs/heads:
+total 16
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 4 vagrant vagrant 4096 Jan 29 18:33 ..
+-rw-rw-r-- 1 vagrant vagrant 6843 Feb  1 19:29 master
+
+./.git/logs/refs/remotes:
+total 12
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:33 .
+drwxrwxr-x 4 vagrant vagrant 4096 Jan 29 18:33 ..
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:33 origin
+
+./.git/logs/refs/remotes/origin:
+total 16
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:33 .
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:33 ..
+-rw-rw-r-- 1 vagrant vagrant 5513 Feb  1 19:30 master
+
+./.git/objects:
+total 528
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 .
+drwxrwxr-x   8 vagrant vagrant 4096 Feb  1 19:29 ..
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:26 00
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 01
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 02
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 03
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:49 05
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 06
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:31 07
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 08
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:09 09
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 0d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 0f
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:31 11
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:17 14
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:58 19
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:34 1a
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:57 1c
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:54 1d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:26 21
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 25
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:15 26
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 28
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:19 29
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:00 2b
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:50 2c
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 2d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 30
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 31
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:20 36
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:54 3d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:08 3e
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 41
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:10 43
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 44
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 46
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:14 48
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 4a
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:53 4b
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 4d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 4f
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:36 52
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:45 53
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:38 54
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 55
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:39 58
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 59
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 5a
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 5b
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:39 61
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:13 64
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 65
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:30 67
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 68
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 6a
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:25 6d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:30 70
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 21:07 71
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:50 76
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:36 78
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:10 7d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:26 80
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 81
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 83
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:52 84
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:14 88
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:38 89
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:14 8a
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 8b
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 8c
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:07 8e
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 8f
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 90
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:36 91
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 94
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 95
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:37 98
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:15 99
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:10 9a
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:54 9c
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 9d
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:24 9f
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:17 a0
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 a2
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 a3
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:39 a7
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 a8
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:19 a9
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 aa
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:10 ab
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:31 ac
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 ad
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 af
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:17 b0
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 b1
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:09 b9
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 21:07 bb
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 21:07 bc
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:14 bd
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 c1
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:31 c2
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:13 c6
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:47 cd
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:07 cf
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:06 d0
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 d2
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:31 d3
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:50 d4
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 d5
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 d6
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 d8
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:52 d9
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 db
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:21 dd
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 de
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:18 df
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 e0
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 e2
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:09 e4
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:58 e5
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 e6
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:14 e9
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:45 ec
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:15 ed
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 f4
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:00 f5
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 f9
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 fd
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 fe
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 ff
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:31 info
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:31 pack
+
+./.git/objects/00:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:26 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 19:26 9bb526a8efaeac1c44cd541e4fd2c97d640a57
+
+./.git/objects/01:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  179 Jan 30 20:00 0454a2235c1063abb1a452098ce2170d8f4690
+-r--r--r--   1 vagrant vagrant  507 Jan 29 18:43 72e149288a34d7fc6d02daab7dd886c6967bb5
+-r--r--r--   1 vagrant vagrant  807 Jan 31 04:17 c2a30cea6d08d576917870bb6afd36d60cb26b
+
+./.git/objects/02:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  178 Jan 31 04:14 b731b534f103e7fdeebb1326ef98a3436b3fe2
+-r--r--r--   1 vagrant vagrant  649 Jan 29 20:25 d5f05b2fed2419d3936874d88e145ec6f0f023
+
+./.git/objects/03:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  137 Jan 30 19:09 e26caf3e5d0b742db835c63f0cc01bfe15bf49
+
+./.git/objects/05:
+total 24
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:49 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   62 Jan 30 19:49 4d35e443258cc0b9c5a58aa71e7bda3f91660a
+-r--r--r--   1 vagrant vagrant  129 Jan 30 14:21 66c8e285c4c4c8b7ee0e4b42c0bd90bb7987e8
+-r--r--r--   1 vagrant vagrant   47 Jan 29 19:21 76aa7dec25c5fd7bfaa3de8010393e7f15a409
+-r--r--r--   1 vagrant vagrant   98 Jan 29 19:53 e67fda90bbbb9ac407d1079464f178f4b5fa07
+
+./.git/objects/06:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   49 Jan 30 00:10 977a08eff8adf3fe40cd18287844b968322439
+-r--r--r--   1 vagrant vagrant  510 Jan 29 18:38 993bd9244a2fa856869f4d2c5f0f3209e6ea3d
+-r--r--r--   1 vagrant vagrant  162 Jan 30 14:26 dc95ec08daece94fb00770de440fa264b0a86c
+
+./.git/objects/07:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:31 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  187 Jan 29 19:31 d0150c89e68451ee02887cb73cc8ebf788c0bf
+
+./.git/objects/08:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 19:52 9427d5c7dd116fef10e2df92d7a79703d80048
+-r--r--r--   1 vagrant vagrant  169 Jan 31 04:17 dd843057dc25acf67957120fd1c78342cc9b1c
+
+./.git/objects/09:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  136 Jan 30 20:09 f3b358f5314662b2a1268c31da591716bf67a8
+
+./.git/objects/0d:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 20:39 49eac56e5a855718d914d7a8c4c0ab44547b29
+-r--r--r--   1 vagrant vagrant  510 Jan 29 18:34 784bbe6e0d31bf16a69505ec7c7e77a5bd1961
+
+./.git/objects/0f:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  171 Jan 29 20:25 2b3e3cc74908ac983e2d7d5fa28150cedd6b2c
+-r--r--r--   1 vagrant vagrant  403 Jan 31 04:17 d9f93451df8c17dd78d23a7498275255217e56
+
+./.git/objects/11:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:31 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  655 Jan 30 19:31 e56b3ff44eca83484d7dddf4412e6757a1714b
+
+./.git/objects/14:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:17 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   66 Jan 29 19:17 2a6f273f99598e5cdaa8707798a75013aae513
+
+./.git/objects/19:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:58 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  733 Jan 30 19:58 42c5e9ed4f802020eb8cc122b50b5276a63768
+-r--r--r--   1 vagrant vagrant  613 Jan 29 20:17 c6088796142458c0ded1a7e09b58b0b9c0da13
+
+./.git/objects/1a:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:34 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  183 Jan 29 18:34 6c04810a3e57f8c80be66a6c08d586e7c7fa74
+
+./.git/objects/1c:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:57 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   32 Jan 29 18:32 c8df5a5e966d9fddcc71f292c659516da4c1fa
+-r--r--r--   1 vagrant vagrant   63 Jan 30 19:57 e0748538da82f6d6464d5be775c4aacfda880c
+
+./.git/objects/1d:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:54 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  197 Jan 30 19:54 50ea8607b528c6a9d06873597f1add89e2e4e7
+-r--r--r--   1 vagrant vagrant   50 Jan 29 18:32 a6a68568792f65232ae6af147ad1ad4e813fd8
+
+./.git/objects/21:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:26 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  187 Jan 29 19:26 177214b1469df4055191c4025e269bfe964eda
+-r--r--r--   1 vagrant vagrant  131 Jan 29 18:32 e16081d576320b556584c08292032c711c58c0
+
+./.git/objects/25:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   49 Jan 29 18:43 15026feb1c952cddd98dd2b6da910c1e1d0871
+-r--r--r--   1 vagrant vagrant   44 Jan 30 19:09 5b32ca0c39a08e278edf289ae11c1fd6973319
+
+./.git/objects/26:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:15 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   96 Jan 30 14:15 9376042749b217f40f4717c05549476dfed3d6
+-r--r--r--   1 vagrant vagrant   59 Jan 30 00:47 dbb65835c3de9ab72b12930be787819c06064c
+
+./.git/objects/28:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   35 Jan 30 19:09 7fd0719211ce82a83c4ff0f0182ae9d7681658
+-r--r--r--   1 vagrant vagrant  540 Jan 29 19:21 9d62f71a853b786db0815caa44c21954157176
+-r--r--r--   1 vagrant vagrant   24 Jan 30 14:14 d023dd63a947beaf240674f28193b0c7363d0e
+
+./.git/objects/29:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:19 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  177 Jan 30 00:07 27afa1124c75b967414269b6b15239f064f43e
+-r--r--r--   1 vagrant vagrant  137 Jan 30 19:19 94ce087f29da634d89f2c7a0e024490d130428
+
+./.git/objects/2b:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:00 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  137 Jan 30 20:00 02bbe4f171c4d4f2583efd5acf40f53968efae
+
+./.git/objects/2c:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:50 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  169 Jan 30 19:50 7334ac380425974388a19b6c08a52e208de90b
+
+./.git/objects/2d:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   55 Jan 29 18:43 eba3a42404cbe8a8a93617824f5ac47266489a
+
+./.git/objects/30:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  686 Jan 29 20:39 b2b608ce32e41b78e97947f0dfa954b2dec8c1
+
+./.git/objects/31:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   49 Jan 29 18:43 fbd3b5164dade998bbdaafb7db6433ca80ae89
+
+./.git/objects/36:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:20 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   34 Jan 30 14:20 068e582d1cb6dddeda375f05bc101cb4d490ef
+
+./.git/objects/3d:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:54 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  732 Jan 30 19:54 df4b4702f81144930cfdc0467feccf047e6f5a
+
+./.git/objects/3e:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:08 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   57 Jan 30 20:08 0e3957fdb1914991ef033297fce08277f4cb65
+
+./.git/objects/41:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  174 Jan 29 20:39 276484165d23755d489d61fd7199f79ba9d760
+
+./.git/objects/43:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:10 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  783 Jan 30 00:10 1e133d997dd93d133c1df610ee1764365038ee
+
+./.git/objects/44:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   34 Jan 29 18:32 0a5e5d0c6854823a82a89766a9e7501fc93be1
+
+./.git/objects/46:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   53 Jan 30 19:09 d9641aaf3da823b383a15b830fa505849ce740
+
+./.git/objects/48:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   37 Jan 30 14:14 9e9795c75341a6e2f96eb9f70285585704e997
+
+./.git/objects/4a:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   46 Jan 30 19:09 0f10c7b6d5ccaabd436e3ae88d5e17540bb2cd
+-r--r--r--   1 vagrant vagrant   98 Jan 29 19:13 314694e18383ac74539e8b09a55fef16c6de8f
+
+./.git/objects/4b:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:53 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   45 Jan 29 19:53 ec0179e92dfa6ad86de8be0c5e9a1d5fdf859d
+
+./.git/objects/4d:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  173 Jan 30 14:26 c5fc848c7b5def4b7193f26ccade8bf973152c
+
+./.git/objects/4f:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   59 Jan 30 19:09 3d664bbc31697642fc892003fe3285ea865b65
+
+./.git/objects/52:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:36 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  648 Jan 29 20:36 a7806e9ac82bd5dc59c7e629fda4e946353d0d
+
+./.git/objects/53:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:45 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 20:45 a1ac3b06ace1d93656458c44957ad04822261f
+
+./.git/objects/54:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:38 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   97 Jan 29 18:38 944aabb36a6a9516bf170a0077b95f6b5aaddd
+
+./.git/objects/55:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   30 Jan 29 18:32 fc5f52fbfb986cbd180a059c1f71f4978485e4
+
+./.git/objects/58:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   60 Jan 30 19:39 b5dff164bb65c6b82b370eadc9c558b0a1d15c
+
+./.git/objects/59:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   33 Jan 29 20:39 d9d3eb2f08f0b8ba03a75ab08606f6ef64d749
+
+./.git/objects/5a:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   35 Jan 30 19:09 cde75ab60f7a90fc47cd5aa17a3b40c7ea80a3
+
+./.git/objects/5b:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  173 Jan 30 14:21 33c858b5d550612f659c58f4b949b71b6f1d25
+-r--r--r--   1 vagrant vagrant  186 Feb  1 19:29 7766e98bb1b4f116f1aac53a173d6b10cc69ad
+
+./.git/objects/61:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  136 Jan 30 19:39 5e3ac6781dce5ecc3a22ecb07d216939ecfcff
+-r--r--r--   1 vagrant vagrant  783 Jan 30 00:47 8a60952cb08ed1c6ca2b7858758f2bb3a1a80b
+
+./.git/objects/64:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:13 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   37 Jan 30 19:13 98dd11213f4affc16f591ba010398845916bda
+
+./.git/objects/65:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  173 Feb  1 19:29 f695b5c408bc006268a66041b1b59a6d00183a
+
+./.git/objects/67:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:30 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   44 Jan 29 19:30 87573a66fd05c9ef30c60404a3ef50eed2bc76
+
+./.git/objects/68:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   35 Jan 29 18:43 1d1f0dc9d220a12c1631e453ab9a81bbe3cc64
+
+./.git/objects/6a:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   54 Jan 29 18:32 ce5d947728cf80f1432b2126a71e70897c0700
+
+./.git/objects/6d:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:25 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 20:25 91ade6a0e4f37fa26acbdb6c3848b006479a6f
+
+./.git/objects/70:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:30 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   54 Jan 30 19:30 ae0a0b96e3d1036cfb5b5cc762ad08d045d4c0
+
+./.git/objects/71:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 21:07 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 21:07 86021772ce5da18895b70c621dc9d877856d2e
+-r--r--r--   1 vagrant vagrant   45 Jan 29 20:17 aee9ee8c12271018dba4a0c25065029b878a9d
+
+./.git/objects/76:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:50 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  137 Jan 30 19:50 bbc459b5dd3975e60cac10bcdc7924e7adac18
+-r--r--r--   1 vagrant vagrant  176 Jan 30 00:10 f25f8f31ab4aa04e435570ba9964ee1e3376ed
+
+./.git/objects/78:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:36 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   51 Jan 29 20:36 68ceadb643bb15fa3d414b7c6589319b6df5c3
+
+./.git/objects/7d:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:10 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  767 Jan 30 20:10 c4a9a1ec1b7497c94ee4674202e8196cf92be0
+
+./.git/objects/80:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:26 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  540 Jan 29 19:26 cdef061975ca5ec2ca45792fd6006209c71f51
+
+./.git/objects/81:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   30 Jan 29 18:32 18b14ee3cff7d188448098a3ba14af2378d6c2
+-r--r--r--   1 vagrant vagrant   40 Jan 30 19:09 a2af00b458856aa0a7addb2739f4d7b2e75c38
+
+./.git/objects/83:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   50 Jan 30 19:09 c35d41c28681ff7a18f20afc1c14271dbac5f6
+
+./.git/objects/84:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:52 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  579 Jan 29 19:52 d29e633547cf1ba0abeb5056491a134c978724
+
+./.git/objects/88:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  187 Jan 29 20:36 125d24ce23d68245858a6db3e9bb9157e774fa
+-r--r--r--   1 vagrant vagrant  185 Jan 30 19:14 5de7abf17119dd24669a1c6324390553beef9a
+
+./.git/objects/89:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:38 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  185 Jan 29 18:38 f21587f83ebd76591deffb8d062d816f24d527
+
+./.git/objects/8a:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  653 Jan 30 19:14 391be2062549859ad194121229c6fa4c714b81
+-r--r--r--   1 vagrant vagrant  579 Jan 29 19:53 e7f5be5ef7fa052e04f799d412f7e664b5f2a5
+
+./.git/objects/8b:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  137 Jan 31 04:14 84ee2aa86ded54ba0abe794169fb0c85db0135
+
+./.git/objects/8c:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  105 Jan 29 18:34 bd86f310ed80c720cda1bdc377a685263b61ad
+-r--r--r--   1 vagrant vagrant   98 Jan 29 18:43 cfb4d217ea5e04518a1897ed08e65405b108a2
+
+./.git/objects/8e:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:07 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  783 Jan 30 00:07 04dabdbb2050e773ee47f9ced72228c50fbf6a
+
+./.git/objects/8f:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   34 Jan 29 18:43 1e1031454c615b584526052a5bd3cd84ef9ac9
+
+./.git/objects/90:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 18:32 98e812c008086fd235ca372b8866a45ac3141d
+
+./.git/objects/91:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:36 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 18:34 72f90bf6eaeff8d6c2f0e91e8c7c73111aa3f2
+-r--r--r--   1 vagrant vagrant   98 Jan 29 20:36 ca1cb4ee812a683e8ce285ec3abb2eaedf8e54
+
+./.git/objects/94:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  190 Jan 30 19:31 219aac4d6f74a0db29ef8d68ee8b8dd782e54a
+-r--r--r--   1 vagrant vagrant   58 Jan 30 20:09 3840310206b4fece9a1ca22d70800d354a5000
+-r--r--r--   1 vagrant vagrant  142 Feb  1 19:29 60fc99a5494d1ef4e2681649fbdb9598036986
+
+./.git/objects/95:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Feb  1 19:29 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   54 Feb  1 19:29 00f6ac5464339f10f7bf9a70fdf9a959b18c08
+-r--r--r--   1 vagrant vagrant   44 Jan 29 19:52 307cc062fe83bca833df4e52b9d6cc07539843
+-r--r--r--   1 vagrant vagrant   97 Jan 30 00:10 66cc782612476a82b5fcec7003cb5c378d6750
+
+./.git/objects/98:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:37 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   31 Jan 29 18:37 bee2ddd4f81774a5b3668b326527f99978c471
+
+./.git/objects/99:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:15 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  852 Jan 30 14:15 5a16dbed28fd6f5350631a3e5b3ddc757ea67d
+-r--r--r--   1 vagrant vagrant  747 Jan 29 21:07 7796a0351bd34322b09a50ac4751bd55e4abd4
+-r--r--r--   1 vagrant vagrant   64 Jan 29 18:32 7ef471bbca09e39efb803b0d3cbc7beebbc9f8
+
+./.git/objects/9a:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:10 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  199 Jan 30 20:10 677271b9e1f4bf98c36fda4bde7e871f05e800
+-r--r--r--   1 vagrant vagrant  105 Jan 29 18:32 9041a67241140950bc9d15d136f571311fb1c1
+-r--r--r--   1 vagrant vagrant  184 Jan 30 19:39 aedaa9e01fdd4643f4fd0ea6e105a95774add4
+
+./.git/objects/9c:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:54 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  136 Jan 30 19:54 0fcce053e0bcc59535534ee436d4850d16a8db
+
+./.git/objects/9d:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   46 Jan 30 19:09 baa49bc00d1f5c58df3d46e989f220681075a2
+
+./.git/objects/9f:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:24 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   52 Jan 29 20:24 3962774cb10ade997cafcaea77baaaba91b173
+
+./.git/objects/a0:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:17 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  171 Jan 29 20:17 eb54fe22a2c959341bb567908a84359c15880a
+
+./.git/objects/a2:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  171 Jan 30 19:09 6de5cc98f336f7054bba9d4704d3acbfffca04
+
+./.git/objects/a3:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  509 Jan 29 18:32 64eb6175055507c3fbf76e417faf5c22e70a35
+
+./.git/objects/a7:
+total 24
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  540 Jan 29 19:18 7da26608636a7f694a06cfe5ae001ef1da7a62
+-r--r--r--   1 vagrant vagrant  175 Jan 29 19:21 c2de5bb83b31429acca0333a3435f27503d4d5
+-r--r--r--   1 vagrant vagrant  696 Jan 30 19:39 de471f63092d28f69fd37f2f659f4e51d67b25
+-r--r--r--   1 vagrant vagrant  654 Jan 30 19:09 fb59e1d1392ea80b01d1ab3194411bfe7e707a
+
+./.git/objects/a8:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   48 Jan 29 18:32 fe66f7c5fdee84517f72e89681ced183b93f9e
+
+./.git/objects/a9:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:19 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  654 Jan 30 19:19 5602b635d86b7cbe2a64b3e9bacd352c3a0fff
+-r--r--r--   1 vagrant vagrant   28 Jan 30 19:09 bf588e2f88457fdf73ac7361ef1d596fb81453
+-r--r--r--   1 vagrant vagrant  168 Jan 29 19:13 ec00388969fa6dbc25fa830131cd34b1b0b693
+
+./.git/objects/aa:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   34 Jan 29 20:39 ea1e2a97f914b2641418d8e8512863c267da2a
+
+./.git/objects/ab:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:10 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  137 Jan 30 20:10 c33f9847091cb22601d7c062a1db7d4af5a86b
+
+./.git/objects/ac:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:31 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  540 Jan 29 19:31 e3760e8cfc6cde163390e0f880612a90effeca
+
+./.git/objects/ad:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  686 Jan 29 20:39 95b20b13122d0ea4c4ab6febc84477a79d5c66
+
+./.git/objects/af:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:17 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  137 Jan 31 04:17 83b7bdba7d5a491f6884d69f4a26322fa2bed3
+
+./.git/objects/b0:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:17 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 20:17 34fba5b5ff0ab39a14ed4837d101a9f1f835e1
+
+./.git/objects/b1:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   51 Jan 29 18:43 1287041bcecd172077ef70ecea2799248d0ca8
+-r--r--r--   1 vagrant vagrant  137 Jan 30 14:26 15b1b9ab1fb20fa9fa832c753c79d8dfd25753
+
+./.git/objects/b9:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  202 Jan 30 14:15 253d5b53544b10b959aa5382d24baa4a82ef8d
+-r--r--r--   1 vagrant vagrant  176 Jan 30 20:09 ff154a62e362074d103d8ba2923717c0613f1f
+
+./.git/objects/bb:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 21:07 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  170 Jan 29 21:07 7200d677ab314d0c322dd0db6f85770079b82d
+
+./.git/objects/bc:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 21:07 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   46 Jan 29 19:26 6c4fcd39195a2beb2ea213ab3cfa19071a0c07
+-r--r--r--   1 vagrant vagrant   36 Jan 29 21:07 70ace9c7f485e74b8960c81c171b82304a3525
+
+./.git/objects/bd:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  136 Jan 30 19:14 d96571343cff84f0dd72ae42eb590af4bc23ef
+
+./.git/objects/c1:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   43 Jan 30 19:09 272c241d777cb88a6958cfb6c22f591ceaf8bd
+-r--r--r--   1 vagrant vagrant  186 Jan 29 18:43 c33e2bfbcf2307b70ae28218be07d4979086ae
+
+./.git/objects/c2:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:31 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  136 Jan 30 19:31 4e8506599f8c108de2f5037ac7375f296421d2
+
+./.git/objects/c6:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:13 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  540 Jan 29 19:13 7f2cd2cbecb84a0706e2e21e6281c3af91b24e
+-r--r--r--   1 vagrant vagrant   69 Jan 29 18:32 d7a18c502c39711b31e1b5a0be5e4ed18cda7c
+
+./.git/objects/cd:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:47 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 30 00:47 f441cf55d82e932eed2419c701d923a5951e5b
+
+./.git/objects/cf:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:07 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 30 00:07 a8d699e38b0a661aa3e922d12c21c62c62add7
+
+./.git/objects/d0:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 00:06 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   49 Jan 30 00:06 fca66db51b0d144206ef810a742c622e0a62b2
+
+./.git/objects/d2:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   36 Jan 29 18:32 ab274f05e8b509cd355ee6f76692a59e5fa8fa
+
+./.git/objects/d3:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:31 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 19:31 f0c707945c373e5b07d3938fd1064e200ae6dd
+
+./.git/objects/d4:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:50 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  729 Jan 30 19:50 a647d01713edc0804eb98e2eb51385e5b8344b
+
+./.git/objects/d5:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   48 Jan 29 18:32 9258beaff72b2162ea16f3fb0dd84da7c6777a
+
+./.git/objects/d6:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  173 Jan 29 20:39 e2b2996b5411d12e791c2df57b68ea936b056a
+
+./.git/objects/d8:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  183 Jan 30 00:47 08e29a51262ec1a7787130b90d541b379d3d1e
+-r--r--r--   1 vagrant vagrant  136 Jan 30 19:58 0db6742a39eb2382c05d00fe0b6c0d10a5652c
+-r--r--r--   1 vagrant vagrant  401 Jan 31 04:14 90cadb4cab699b4c64880a97b9a19f51ea29c5
+
+./.git/objects/d9:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:52 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  176 Jan 29 19:52 00af728d75f613be10d4ea1adf7fe1be95e6fe
+
+./.git/objects/db:
+total 20
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 31 04:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  805 Jan 31 04:14 7fe07ed2f4bd6d89d4c20957a6e19eb93f3e48
+-r--r--r--   1 vagrant vagrant  137 Jan 30 14:21 9b13103fa177b80b844d33fde73757ac9d65fc
+-r--r--r--   1 vagrant vagrant  167 Jan 29 20:45 c092e42f624bc86bac4801b169c685cc216eac
+
+./.git/objects/dd:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:21 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   97 Jan 29 19:21 06c93a2233e328f43a979ca4dcd48cdc43e96d
+
+./.git/objects/de:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:39 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   98 Jan 29 20:39 074dc10010bcea1ff3b78ba153a850e14241af
+
+./.git/objects/df:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 19:18 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  189 Jan 29 19:18 9d833a60c24c6aaa906ab351c7d67a7d777953
+-r--r--r--   1 vagrant vagrant   98 Jan 29 19:18 aaa0e3a5013fb246099b9f58f7eacb5a2fcce9
+
+./.git/objects/e0:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   44 Jan 30 19:09 a2c609609dbd074ee8765e0d417101cdefc102
+
+./.git/objects/e2:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   33 Jan 29 18:32 d808c81bf772de77ad86799da1f7ce47e57aa1
+
+./.git/objects/e4:
+total 24
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  198 Jan 30 19:19 6f895de664141bce581bfdbfccca40a8453681
+-r--r--r--   1 vagrant vagrant  765 Jan 30 20:09 dc396d62ca500921de71e4c707ddcf5e67235c
+-r--r--r--   1 vagrant vagrant   58 Jan 30 19:18 e179d0799fdee811c9a6bc5d1e0adc4493e26f
+-r--r--r--   1 vagrant vagrant   17 Jan 29 18:32 e5f6c8b2deb54bf38312dd9e2f53489b60d6a6
+
+./.git/objects/e5:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:58 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  199 Jan 30 19:58 04c37f43da472cd42b1249b24e6c33913c022e
+-r--r--r--   1 vagrant vagrant   43 Jan 29 19:13 afb5259f0636330ec6b07a2663b6f52ff3a6b5
+
+./.git/objects/e6:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   15 Jan 30 19:09 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+./.git/objects/e9:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:14 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  186 Jan 29 19:53 42d948bf3a960ede9645d9d263ab0af5255935
+-r--r--r--   1 vagrant vagrant   22 Jan 30 14:14 b45757822cbe2939ea34aec6bd7ab09058e97a
+
+./.git/objects/ec:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 20:45 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  716 Jan 29 20:45 19495481d4fbcc8c5dac34f87463cc542e7677
+
+./.git/objects/ed:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:15 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  136 Jan 30 14:15 cb3c1b49a9cd7473b96f0f9371381dddba356f
+
+./.git/objects/f4:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:32 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   32 Jan 29 18:32 65aa7e7a5e85f599486d866b5f1fc477e74b6e
+
+./.git/objects/f5:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 20:00 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  729 Jan 30 20:00 b6d76af10d406a4333dbc74ed2050e986548f8
+
+./.git/objects/f9:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 14:26 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant  171 Jan 30 14:26 19636fa2cfe6000c3c269e4efbccdc42a8e3cb
+
+./.git/objects/fd:
+total 12
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:43 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   33 Jan 29 18:43 ccc5555947dedf25a9d6aaa67213efe0b83139
+
+./.git/objects/fe:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   44 Jan 30 19:09 1c51a3964f8bfb0f0f9781ba5a60763fb5c6d4
+-r--r--r--   1 vagrant vagrant   31 Jan 29 18:43 65e231d2881f8e7626af5e6b0b3b5e75e99872
+
+./.git/objects/ff:
+total 16
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 30 19:09 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+-r--r--r--   1 vagrant vagrant   58 Jan 29 20:45 13cac673a14bf8232855b0a5897e9ec397f5e4
+-r--r--r--   1 vagrant vagrant   49 Jan 30 19:09 570ab1531114b7fabf26500ee4ea3977c77009
+
+./.git/objects/info:
+total 8
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:31 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+
+./.git/objects/pack:
+total 8
+drwxrwxr-x   2 vagrant vagrant 4096 Jan 29 18:31 .
+drwxrwxr-x 132 vagrant vagrant 4096 Feb  1 19:29 ..
+
+./.git/refs:
+total 20
+drwxrwxr-x 5 vagrant vagrant 4096 Jan 29 18:33 .
+drwxrwxr-x 8 vagrant vagrant 4096 Feb  1 19:29 ..
+drwxrwxr-x 2 vagrant vagrant 4096 Feb  1 19:29 heads
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:33 remotes
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:31 tags
+
+./.git/refs/heads:
+total 12
+drwxrwxr-x 2 vagrant vagrant 4096 Feb  1 19:29 .
+drwxrwxr-x 5 vagrant vagrant 4096 Jan 29 18:33 ..
+-rw-rw-r-- 1 vagrant vagrant   41 Feb  1 19:29 master
+
+./.git/refs/remotes:
+total 12
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:33 .
+drwxrwxr-x 5 vagrant vagrant 4096 Jan 29 18:33 ..
+drwxrwxr-x 2 vagrant vagrant 4096 Feb  1 19:30 origin
+
+./.git/refs/remotes/origin:
+total 12
+drwxrwxr-x 2 vagrant vagrant 4096 Feb  1 19:30 .
+drwxrwxr-x 3 vagrant vagrant 4096 Jan 29 18:33 ..
+-rw-rw-r-- 1 vagrant vagrant   41 Feb  1 19:30 master
+
+./.git/refs/tags:
+total 8
+drwxrwxr-x 2 vagrant vagrant 4096 Jan 29 18:31 .
+drwxrwxr-x 5 vagrant vagrant 4096 Jan 29 18:33 ..

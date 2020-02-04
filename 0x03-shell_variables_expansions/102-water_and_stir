@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%o\n" $(echo $(($(echo $((5#$(echo $WATER | tr [w,a,t,e,r] [0,1,2,3,4]))))+$(echo $((5#$(echo $STIR | tr [s,t,i,r,.] [0,1,2,3,4]))))))) | tr [0,1,2,3,4,5,6,7] [b,e,h,l,n,o,r,t]

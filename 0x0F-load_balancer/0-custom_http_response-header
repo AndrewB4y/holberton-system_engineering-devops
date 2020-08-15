@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Installs nginx, configures a redirection on /redirect_me
+# adds a custom 404 page, and adds a custom HTTP
+
+apt update
+apt -y install nginx
+echo 'Holberton School' > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/my_404.html
+new_string="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
+sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-available/default
+new_string="server_name _;\n\terror_page 404 \/my_404.html;"
+sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-available/default
+sed -i "/listen 80 default_server/a add_header X-Served-By \"$HOSTNAME\";" /etc/nginx/sites-available/default
+ufw allow 'Nginx HTTP'
+service nginx stop
+service nginx start

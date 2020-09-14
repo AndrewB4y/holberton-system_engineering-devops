@@ -19,28 +19,22 @@ if __name__ == "__main__":
     r_us = requests.get(req_users.format(employee_id))
     r_todos = requests.get(req_todos)
 
-    try:
-        user = r_us.json()
-        todos = r_todos.json()
-        if user == {} or todos == {}:
-            print("No result")
-        else:
-            my_dict = {}
-            my_dict.update({'name': user.get('name')})
-            done_td = 0
-            total_td = 0
-            titles = []
-            for a_todo in todos:
-                if a_todo.get("userId") == int(employee_id):
-                    total_td += 1
-                    if a_todo.get('completed') is True:
-                        done_td += 1
-                        titles.append(a_todo.get('title'))
-            ts = "\n\t".join(titles)
-            my_dict.update({'t_td': total_td,
-                            'd_td': done_td,
-                            'ts': ts})
-            m = "Employee {name} is done with tasks({d_td}/{t_td}):\n\t{ts}"
-            print(m.format(**my_dict))
-    except Exception as error:
-        print(error)
+    user = r_us.json()
+    todos = r_todos.json()
+    my_dict = {}
+    my_dict.update({'name': user.get('name')})
+    done_td = 0
+    total_td = 0
+    titles = []
+    for a_todo in todos:
+        if a_todo.get("userId") == int(employee_id):
+            total_td += 1
+            if a_todo.get('completed') is True:
+                done_td += 1
+                titles.append(a_todo.get('title'))
+    ts = "\n\t".join(titles)
+    my_dict.update({'t_td': total_td,
+                    'd_td': done_td,
+                    'ts': ts})
+    m = "Employee {name} is done with tasks({d_td}/{t_td}):\n\t{ts}"
+    print(m.format(**my_dict))

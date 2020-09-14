@@ -33,7 +33,7 @@ if __name__ == "__main__":
             for a_todo in todos:
                 if a_todo["userId"] == 2:
                     total_td += 1
-                    if a_todo['completed'] == True:
+                    if a_todo['completed'] is True:
                         done_td += 1
                     titles.append(a_todo['title'])
             ts = "\n\t".join(titles)

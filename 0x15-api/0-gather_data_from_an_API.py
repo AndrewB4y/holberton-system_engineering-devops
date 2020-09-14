@@ -26,16 +26,16 @@ if __name__ == "__main__":
             print("No result")
         else:
             my_dict = {}
-            my_dict.update({'name': user['name']})
+            my_dict.update({'name': user.get('name')})
             done_td = 0
             total_td = 0
             titles = []
             for a_todo in todos:
-                if a_todo["userId"] == int(employee_id):
+                if a_todo.get("userId") == int(employee_id):
                     total_td += 1
-                    if a_todo['completed'] is True:
+                    if a_todo.get('completed') is True:
                         done_td += 1
-                        titles.append(a_todo['title'])
+                        titles.append(a_todo.get('title'))
             ts = "\n\t".join(titles)
             my_dict.update({'t_td': total_td,
                             'd_td': done_td,

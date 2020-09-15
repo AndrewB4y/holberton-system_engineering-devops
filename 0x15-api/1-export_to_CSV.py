@@ -29,7 +29,7 @@ if __name__ == "__main__":
     for a_todo in todos:
         if a_todo.get("userId") == int(employee_id):
             content.append({"USER_ID": str(a_todo.get('userId')),
-                            "USERNAME": str(user.get('name')),
+                            "USERNAME": str(user.get('username')),
                             "TASK_COMPLETED_STATUS":
                             str(a_todo.get('completed')),
                             "TASK_TITLE": str(a_todo.get('title'))})

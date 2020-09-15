@@ -36,5 +36,7 @@ if __name__ == "__main__":
     my_dict.update({'t_td': total_td,
                     'd_td': done_td,
                     'ts': ts})
-    m = "Employee {name} is done with tasks({d_td}/{t_td}):\n\t{ts}"
+    m = "Employee {name} is done with tasks({d_td}/{t_td}):"
+    if total_td > 0:
+        m = m + "\n\t{ts}"
     print(m.format(**my_dict))

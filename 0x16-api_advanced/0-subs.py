@@ -7,6 +7,11 @@ import json
 
 
 def number_of_subscribers(subreddit):
+    """
+    number_of_subsribers
+    queries the Reddit API and returns the number of subscribers
+    for a given subreddit
+    """
     url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
     headers = {'User-Agent':
                'Mozilla/5.0 (Windows NT 10.0; Win64; '

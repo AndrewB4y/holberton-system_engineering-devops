@@ -3,7 +3,6 @@
 """ 0-subs module """
 
 import requests
-import json
 
 
 def number_of_subscribers(subreddit):

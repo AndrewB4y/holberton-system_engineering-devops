@@ -17,7 +17,7 @@ def number_of_subscribers(subreddit):
                'Mozilla/5.0 (Windows NT 10.0; Win64; '
                'x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                'Chrome/85.0.4183.102 Safari/537.36'}
-    r = requests.get(url, headers=headers)
+    r = requests.get(url, headers=headers, allow_redirects=False)
     r = r.json()
 
     if 'error' not in r:

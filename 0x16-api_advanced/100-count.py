@@ -14,11 +14,8 @@ def count_words(subreddit, word_list, after=''):
     """ Converting word_list to dictionary and setting each count to 0 """
     if type(word_list) is list:
         temp = {}
-        temp2 = set([word.lower() for word in word_list])
         for word in word_list:
-            if word.lower() in temp2:
-                temp.update({word: 0})
-                temp2.remove(word.lower())
+            temp.update({word: 0})
         word_list = temp
 
     """ When after is None, means the end of the queries"""

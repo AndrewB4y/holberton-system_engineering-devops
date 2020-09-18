@@ -47,7 +47,7 @@ def count_words(subreddit, word_list, after=''):
         for post in r:
             check = post.get('data').get('title').lower().split()
             for w in word_list:
-                word_list[w] += check.count(w)
+                word_list[w] += check.count(w.lower())
         count_words(subreddit, word_list, after)
     else:
         return

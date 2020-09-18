@@ -13,6 +13,7 @@ def count_words(subreddit, word_list, after=''):
 
     """ Converting word_list to dictionary and setting each count to 0 """
     if type(word_list) is list:
+        word_list = set(word_list)
         temp = {}
         for word in word_list:
             temp.update({word: 0})
@@ -39,8 +40,8 @@ def count_words(subreddit, word_list, after=''):
                'Chrome/85.0.4183.102 Safari/537.36'}
 
     r = requests.get(url, headers=headers, allow_redirects=False)
-    r = r.json()
-    if 'error' not in r:
+    if r.status_code == 200:
+        r = r.json()
         r = r.get('data')
         after = r.get('after')
         r = r.get('children')

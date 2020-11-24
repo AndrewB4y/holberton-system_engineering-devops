@@ -1,3 +1,3 @@
-# 0x00 Shell basics
+# holberton-system_engineering-devops
 
-Working around with the shell
+This repository is focus on the use of DevOps practices
